@@ -7,6 +7,10 @@
 .box-1 {
     background-color: green;
     height: 50px;
+		position: relative;
+		top: 20px;
+		z-index: -1; /* работает только с позиционированныйми элементами */
+		
 }
 
 .box-2 {
